@@ -1,7 +1,8 @@
 
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
-// import Nav from './Components/Nav/Nav'
+
+import PriceOption from './Components/PriceOption/PriceOption'
 
 function App() {
 
@@ -9,9 +10,9 @@ function App() {
   return (
     <>
     
-    {/* <Nav></Nav> */}
     <Navbar></Navbar>
-      
+    {/* <Nav></Nav> */}
+      <PriceOption></PriceOption>
     </>
   )
 }
